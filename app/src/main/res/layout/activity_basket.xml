@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".BasketActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_height="wrap_content">
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:text="@string/teamA"
+           android:textSize="20sp"
+           android:layout_height="wrap_content" />
+
+       <TextView
+           android:id="@+id/scoreA"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginTop="16dp"
+           android:text="@string/score"
+           android:textSize="40sp" />
+
+       <Button
+           android:id="@+id/btn1"
+           android:text="@string/btn1"
+           android:layout_marginTop="16dp"
+           android:layout_width="wrap_content"
+           android:layout_gravity="center"
+           android:onClick="click1"
+           android:layout_height="wrap_content" />
+
+       <Button
+           android:id="@+id/btn2"
+           android:text="@string/btn2"
+           android:layout_marginTop="16dp"
+           android:layout_width="wrap_content"
+           android:layout_gravity="center"
+           android:onClick="click2"
+           android:layout_height="wrap_content" />
+
+       <Button
+           android:id="@+id/btn3"
+           android:text="@string/btn3"
+           android:layout_marginTop="16dp"
+           android:layout_width="wrap_content"
+           android:layout_gravity="center"
+           android:onClick="click3"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="20dp"/>
+
+
+
+
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/teamB"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/scoreB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="@string/score"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/btn1_B"
+            android:text="@string/btn1"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="click1_b"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn2_B"
+            android:text="@string/btn2"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="click2_b"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn3_B"
+            android:text="@string/btn3"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="click3_b"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>
+
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:text="@string/reset"
+        android:onClick="reset"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

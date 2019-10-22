@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Temperature_e</string>
+    <string name="hint">input yout temperature</string>
+    <string name="btn">Transform</string>
+    <string name="show">result</string>
+
+    <string name="teamA">Team_A</string>
+    <string name="btn1">add 1 score</string>
+    <string name="btn2">add 2 score</string>
+    <string name="btn3">add 3 score</string>
+    <string name="score">0</string>
+
+    <string name="teamB">Team_B</string>
+    <string name="btn1_B">add 1 score</string>
+    <string name="btn2_B">add 2 score</string>
+    <string name="btn3_B">add 3 score</string>
+    <string name="score_B">0</string>
+    <string name="reset">Reset</string>
+    <string name="title_activity_currency_exchange">CurrencyExchange</string>
+
+    <string name="dollar">DOLLAR</string>
+    <string name="euro">EURO</string>
+    <string name="won">WON</string>
+    <string name="config">CONFIG</string>
+    <string name="sbumit">Submit</string>
+    <string name="meun_set">settings</string>
+    <string name="label_open_list">OpenList</string>
+</resources>
