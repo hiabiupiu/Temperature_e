@@ -26,7 +26,7 @@ public class Mylist2Activity extends ListActivity {
         SharedPreferences sp = getSharedPreferences("get_rate",0);
 
         listItems = new ArrayList<HashMap<String,String>>();
-        for (int i=1; i<sp.hashCode(); i++){
+        for (int i=1; i<30; i++){
             HashMap<String,String>map = new HashMap<String, String>();
             map.put("ItemTitle",sp.getString("item"+i,null));
             map.put("ItemDetail",sp.getString("detail"+i,"0.00f"));

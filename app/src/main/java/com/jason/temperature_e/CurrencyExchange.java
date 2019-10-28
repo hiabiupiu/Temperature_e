@@ -35,7 +35,6 @@ import java.io.Reader;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.List;
 
 
 public class CurrencyExchange extends AppCompatActivity implements Runnable {
@@ -135,9 +134,9 @@ public class CurrencyExchange extends AppCompatActivity implements Runnable {
             startActivityForResult(config,1);
         } else if(item.getItemId() == R.id.open_list){
             //打开列表窗口
-            // Intent RateListActivity = new Intent(this,Mylist2Activity.class);
-            //startActivity(RateListActivity);
-            //测试数据库
+             Intent RateListActivity = new Intent(this,Mylist2Activity.class);
+             startActivity(RateListActivity);
+          /*  //测试数据库
             RateItem item1 = new RateItem("aaa","234");
             RateManager manager = new RateManager(this);
             manager.add(item1);
@@ -149,7 +148,7 @@ public class CurrencyExchange extends AppCompatActivity implements Runnable {
             for(RateItem i : testlist){
                 Log.i(TAG, "onOptionsItemSelected: 取出数据[id= "+i.getId()+"]name="+i.getCurName()+"rate="+i.getCurRate());
 
-            }
+            }*/
 
         }
         return super.onOptionsItemSelected(item);
